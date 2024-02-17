@@ -29,7 +29,15 @@ const Home: NextPage = () => {
           <p className="text-center text-lg">
             Withdraw: This is the fucntion that allows liquidity providers withdraw their liquidity
           </p>
-
+          <p className="text-center text-lg">
+            For you to be able to mint DEX tokens to test the swap exchange use{" "}
+            <code> https://dex-token.vercel.app/debug</code> to interact with the DEX Token.
+          </p>
+          <p>
+            N.B: Also you would have to approve the exchange to take token from your address. To do that connect your
+            wallet to the Token implementation at https://dex-token.vercel.app/debug and call the approve function by
+            passing the exchange contract and the amount of tokens to want to use
+          </p>
           <p className="text-center text-lg"></p>
         </div>
       </div>
